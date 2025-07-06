@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - Example Demo Bank</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4fbff;
+      padding: 40px;
+    }
+    h1 {
+      text-align: center;
+      color: #003366;
+    }
+    .contact-info {
+      max-width: 500px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .info {
+      margin-bottom: 15px;
+    }
+    .branches {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Contact Us</h1>
+  <div class="contact-info">
+    <div class="info">
+      <strong>24x7 Helpline:</strong> 08354-12345
+    </div>
+    <div class="info">
+      <strong>Email:</strong> <a href="mailto:support@examplebank.com">support@examplebank.com</a>
+    </div>
+    <div class="branches">
+      <strong>Branches:</strong>
+      <ul>
+        <li>Branch 1</li>
+        <li>Branch 2</li>
+        <li>Branch 3</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
